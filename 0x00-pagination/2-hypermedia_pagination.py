@@ -7,6 +7,7 @@ from typing import List
 from typing import Tuple
 from typing import Dict
 
+
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
     ''' function to calc index '''
     start = (page - 1) * page_size
