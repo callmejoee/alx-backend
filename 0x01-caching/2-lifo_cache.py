@@ -5,7 +5,7 @@ from base_caching import BaseCaching
 from collections import OrderedDict
 
 
-class FIFOCache(BaseCaching):
+class LIFOCache(BaseCaching):
     ''' FIFOCache  inherits from BaseCaching and implements FIFO caching '''
 
     def __init__(self):
