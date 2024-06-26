@@ -17,7 +17,7 @@ class LRUCache(BaseCaching):
         ''' Add an item to the cache '''
         if key is None or item is None:
             return
-        if key in self.chache_data:
+        if key in self.cache_data:
             self.cache_data.move_to_end(key)
 
         if len(self.cache_data) >= BaseCaching.MAX_ITEMS:
