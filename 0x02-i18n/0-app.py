@@ -3,7 +3,7 @@
 
 from flask import Flask, render_template
 
-
+app.url_map.strict_slashes = False
 pp = Flask(__name__)
 
 
